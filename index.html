@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jual Akun Facebook Polosan 2010 - Kapten Untung</title>
+    <meta name="description" content="Pusat Jual Akun Facebook Polosan Tahun 2010 Aman, Terpercaya, Bergaransi. Stok Ready Siap Pakai.">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* --- CONFIG & VARIABLES --- */
+        :root {
+            --primary: #1877f2;       /* Facebook Blue */
+            --primary-dark: #145dbf;
+            --accent: #FFD700;        /* Gold/Warning */
+            --accent-hover: #e6c200;
+            --dark: #0f172a;          /* Dark Navy Text */
+            --text-gray: #64748b;
+            --light-bg: #f8fafc;
+            --white: #ffffff;
+            --success: #10b981;
+            --danger: #ef4444;
+            --card-shadow: 0 10px 40px -10px rgba(0,0,0,0.1);
+            --glow: 0 0 20px rgba(24, 119, 242, 0.3);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        body {
+            background-color: var(--light-bg);
+            color: var(--dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* --- LAYOUT UTILITIES --- */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .text-center { text-align: center; }
+        .text-primary { color: var(--primary); }
+        .text-accent { color: var(--accent); }
+        .fw-bold { font-weight: 700; }
+        .fw-black { font-weight: 900; }
+
+        /* --- HERO SECTION --- */
+        .hero {
+            background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+            color: white;
+            padding: 60px 20px 80px;
+            border-radius: 0 0 50px 50px;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        /* Background Pattern */
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50px; left: -50px;
+            width: 200px; height: 200px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 50%;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.2);
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            backdrop-filter: blur(5px);
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            line-height: 1.1;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            font-weight: 800;
+        }
+
+        .hero h1 span { color: var(--primary); text-shadow: var(--glow); }
+        .hero h1 span.gold { color: var(--accent); text-shadow: none; }
+
+        .hero p {
+            font-size: 18px;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto 40px;
+        }
+
+        /* --- PRICING CARDS (FLOATING) --- */
+        .pricing-container {
+            margin-top: -50px; /* Overlap hero */
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            position: relative;
+            z-index: 10;
+            padding-bottom: 40px;
+        }
+
+        .price-card {
+            background: var(--white);
+            border-radius: 24px;
+            padding: 40px 30px;
+            text-align: center;
+            box-shadow: var(--card-shadow);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            border: 1px solid rgba(0,0,0,0.05);
+            overflow: hidden;
+        }
+
+        .price-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 50px -12px rgba(24, 119, 242, 0.25);
+        }
+
+        /* Featured Card Styling */
+        .price-card.featured {
+            background: linear-gradient(to bottom, #ffffff, #f0f7ff);
+            border: 2px solid var(--primary);
+            transform: scale(1.05);
+            z-index: 2;
+        }
+        
+        .price-card.featured:hover {
+            transform: scale(1.05) translateY(-10px);
+        }
+
+        .ribbon {
+            position: absolute;
+            top: 20px;
+            right: -35px;
+            background: var(--primary);
+            color: white;
+            padding: 5px 40px;
+            transform: rotate(45deg);
+            font-size: 12px;
+            font-weight: 800;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .price-tag {
+            font-size: 48px;
+            font-weight: 800;
+            color: var(--dark);
+            margin: 20px 0;
+        }
+        .price-tag span { font-size: 18px; color: var(--text-gray); font-weight: 400; }
+
+        .btn-buy {
+            display: block;
+            width: 100%;
+            padding: 16px;
+            border-radius: 12px;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 18px;
+            transition: 0.3s;
+            margin-top: 20px;
+            box-shadow: 0 4px 15px rgba(24, 119, 242, 0.4);
+        }
+
+        .btn-buy:hover { background: var(--primary-dark); transform: translateY(-2px); }
+        
+        .price-card.secondary .btn-buy {
+            background: var(--dark);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .features-list {
+            list-style: none;
+            text-align: left;
+            margin-top: 30px;
+        }
+
+        .features-list li {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            color: var(--text-gray);
+            font-weight: 500;
+        }
+
+        .features-list li svg {
+            width: 20px; height: 20px;
+            margin-right: 12px;
+            color: var(--success);
+            flex-shrink: 0;
+        }
+
+        /* --- PROMO BAR --- */
+        .promo-strip {
+            background: linear-gradient(90deg, #FFD700, #FFA500);
+            color: #3e2704;
+            padding: 15px;
+            border-radius: 12px;
+            text-align: center;
+            font-weight: 700;
+            margin: 40px 0;
+            box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+            100% { transform: scale(1); }
+        }
+
+        /* --- SECTIONS --- */
+        .section-box {
+            background: white;
+            padding: 40px;
+            border-radius: 24px;
+            margin-bottom: 30px;
+            box-shadow: var(--card-shadow);
+        }
+
+        .section-title {
+            font-size: 24px;
+            font-weight: 800;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            color: var(--dark);
+        }
+        
+        .section-title::after {
+            content: '';
+            flex: 1;
+            max-width: 100px;
+            height: 3px;
+            background: #e2e8f0;
+            border-radius: 3px;
+        }
+        .section-title::before {
+            content: '';
+            flex: 1;
+            max-width: 100px;
+            height: 3px;
+            background: #e2e8f0;
+            border-radius: 3px;
+        }
+
+        /* --- WARRANTY GRID --- */
+        .warranty-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .warranty-item {
+            border: 2px dashed #e2e8f0;
+            padding: 20px;
+            border-radius: 16px;
+        }
+        
+        .warranty-item.alert {
+            background: #fef2f2;
+            border-color: #fecaca;
+            color: #991b1b;
+        }
+
+        .warranty-icon {
+            font-size: 30px;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        /* --- FEATURES ICONS --- */
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            text-align: center;
+        }
+
+        .feature-item {
+            padding: 20px;
+            background: #f8fafc;
+            border-radius: 16px;
+            transition: 0.3s;
+        }
+        .feature-item:hover { background: white; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
+
+        .feature-icon {
+            font-size: 32px;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        /* --- CONTACT BUTTONS --- */
+        .contact-wrapper {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn-contact {
+            display: flex;
+            align-items: center;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            color: white;
+            font-weight: 700;
+            transition: 0.3s;
+            min-width: 250px;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .btn-fb { background: #1877f2; box-shadow: 0 4px 15px rgba(24, 119, 242, 0.4); }
+        .btn-wa { background: #25d366; box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4); }
+
+        .btn-contact:hover { transform: translateY(-3px); filter: brightness(1.1); }
+
+        /* --- FOOTER --- */
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: var(--text-gray);
+            font-size: 14px;
+        }
+
+        /* --- MOBILE --- */
+        @media (max-width: 768px) {
+            .hero { padding: 40px 15px 60px; border-radius: 0 0 30px 30px; }
+            .hero h1 { font-size: 2.2rem; }
+            .pricing-container { margin-top: -30px; grid-template-columns: 1fr; }
+            .price-card.featured { transform: scale(1); }
+            .price-card.featured:hover { transform: translateY(-5px); }
+            .warranty-grid { grid-template-columns: 1fr; }
+            .feature-grid { grid-template-columns: 1fr 1fr; }
+            .section-title { flex-direction: column; gap: 5px; }
+            .section-title::before, .section-title::after { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header / Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-badge">🔥 STOK TERBATAS HARI INI 🔥</div>
+            <h1>AKUN FB <span>POLOSAN</span><br>TAHUN <span class="gold">2010</span></h1>
+            <p>Aman Akun Di Awal | Anti Checkpoint Awal | Siap Pakai</p>
+            
+            <div style="margin-top: 20px; font-size: 14px; opacity: 0.8; display: flex; justify-content: center; gap: 15px;">
+                <span>✅ Garansi Ganti Baru</span>
+                <span>✅ Respon Cepat</span>
+                <span>✅ 100% Aman</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <!-- Pricing Section (Floating Cards) -->
+        <section class="pricing-container">
+            <!-- Card 1 -->
+            <div class="price-card secondary">
+                <h3 class="text-primary fw-bold" style="font-size: 20px;">PAKET BASIC</h3>
+                <p style="font-size: 14px; color: var(--text-gray);">Perlu Input Email/HP Dulu</p>
+                <div class="price-tag">10K <span>/akun</span></div>
+                <ul class="features-list">
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        FB Polosan (Kosong)
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        Tahun Pembuatan 2010
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        A2F Mati (Password Permanen)
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        Cocok untuk Pribadi
+                    </li>
+                </ul>
+                <a href="https://wa.me/62895629201005?text=Halo+Min,+mau+beli+Akun+FB+Basic+10k" target="_blank" class="btn-buy">Beli Paket Basic</a>
+            </div>
+
+            <!-- Card 2 (Featured) -->
+            <div class="price-card featured">
+                <div class="ribbon">BEST SELLER</div>
+                <h3 class="text-primary fw-bold" style="font-size: 20px;">PAKET INSTANT</h3>
+                <p style="font-size: 14px; color: var(--text-gray);">Siap Pakai Langsung Login</p>
+                <div class="price-tag text-primary">15K <span>/akun</span></div>
+                <ul class="features-list">
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        <strong>FB Siap Pakai (Full Info)</strong>
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        Tahun Pembuatan 2010
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        Bisa Bikin Halaman/Fanpage
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        Login tanpa ribet
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        Bonus Panduan Aman
+                    </li>
+                </ul>
+                <a href="https://wa.me/62895629201005?text=Halo+Min,+mau+beli+Akun+FB+Instant+15k" target="_blank" class="btn-buy">Beli Paket Instant</a>
+            </div>
+        </section>
+
+        <!-- Promo Banner -->
+        <section class="promo-strip">
+            🎁 PROMO KHUSUS HARI INI: BELI 5 AKUN GRATIS 1 AKUN! (Khusus Pembelian via WhatsApp) 🎁
+        </section>
+
+        <!-- Why Choose Us -->
+        <section class="section-box">
+            <h2 class="section-title">KENAPA HARUS DISINI?</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <span class="feature-icon">🛡️</span>
+                    <h4 class="fw-bold">100% Legal</h4>
+                    <p style="font-size: 12px; color: var(--text-gray);">Bukan hasil curian/hecking</p>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">📅</span>
+                    <h4 class="fw-bold">Akun Tua</h4>
+                    <p style="font-size: 12px; color: var(--text-gray);">Usia 2010 (High Trust)</p>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">🚀</span>
+                    <h4 class="fw-bold">Proses Cepat</h4>
+                    <p style="font-size: 12px; color: var(--text-gray);">Kirim data setelah bayar</p>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">🎧</span>
+                    <h4 class="fw-bold">Full Support</h4>
+                    <p style="font-size: 12px; color: var(--text-gray);">Bingung? Admin bantu</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Warranty / Rules -->
+        <section class="section-box">
+            <h2 class="section-title">GARANSI & ATURAN</h2>
+            <div class="warranty-grid">
+                <div class="warranty-item">
+                    <span class="warranty-icon">🛡️</span>
+                    <h4 class="fw-bold text-success">Jaminan Ganti</h4>
+                    <p style="font-size: 13px; margin-top: 5px;">Jika akun kena <strong>Checkpoint 180 Hari</strong> saat pertama login, kami ganti akun baru 1x.</p>
+                </div>
+                <div class="warranty-item alert">
+                    <span class="warranty-icon">⚠️</span>
+                    <h4 class="fw-bold">Batas Tanggung Jawab</h4>
+                    <p style="font-size: 13px; margin-top: 5px;">Jika akun pengganti kena checkpoint lagi, atau karena kelalaian user (spam/iklan berlebih), <strong>tidak ada garansi</strong>.</p>
+                </div>
+            </div>
+            
+            <!-- WARNING BOX ADDED HERE -->
+            <div style="margin-top: 20px; padding: 15px; background: #eff6ff; border-left: 4px solid var(--primary); border-radius: 8px; font-size: 14px; color: #1e3a8a;">
+                <strong>⚠️ PERHATIAN PENTING:</strong><br>
+                Pastikan Anda menggunakan alamat email atau nomor telepon yang belum pernah didaftarkan atau dikaitkan ke akun Facebook lainnya sama sekali.
+            </div>
+
+            <div style="margin-top: 15px; padding: 15px; background: #fffbeb; border-left: 4px solid var(--accent); border-radius: 8px; font-size: 13px; color: #78350f;">
+                <strong>📝 INFO TAMBAHAN:</strong> Tidak ada jaminan ganti nama (tergantung sistem FB). Transaksi berarti setuju dengan aturan.
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section-box text-center">
+            <h2 class="section-title">MINAT? CHAT SEKARANG</h2>
+            <p style="margin-bottom: 30px; color: var(--text-gray);">Jangan sampai kehabisan stok! Klik tombol di bawah untuk terhubung langsung dengan Admin.</p>
+            
+            <div class="contact-wrapper">
+                <a href="https://www.facebook.com/profile.php?id=100000182748686" target="_blank" class="btn-contact btn-fb">
+                    <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    Chat Facebook
+                </a>
+                <a href="https://wa.me/62895629201005?text=Halo+Min,+mau+tanya+stok+akun+FB+2010" target="_blank" class="btn-contact btn-wa">
+                    <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                    Chat WhatsApp
+                </a>
+            </div>
+
+            <!-- Payment Methods -->
+            <div style="margin-top: 40px;">
+                <p style="font-size: 14px; font-weight: 700; margin-bottom: 15px; color: var(--text-gray);">METODE PEMBAYARAN:</p>
+                <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+                    <span style="padding: 8px 16px; background: #f1f5f9; border-radius: 8px; font-weight: 700; color: #0081a7; font-size: 14px;">DANA</span>
+                    <span style="padding: 8px 16px; background: #f1f5f9; border-radius: 8px; font-weight: 700; color: #00a86b; font-size: 14px;">GOPAY</span>
+                    <span style="padding: 8px 16px; background: #f1f5f9; border-radius: 8px; font-weight: 700; color: #ff9f1c; font-size: 14px;">SEABANK</span>
+                    <span style="padding: 8px 16px; background: #f1f5f9; border-radius: 8px; font-weight: 700; color: #0056b3; font-size: 14px;">QRIS</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Schedule -->
+        <div style="text-align: center; margin-bottom: 40px; color: var(--text-gray); font-size: 14px;">
+            <p>🕒 <strong>Jadwal Operasional:</strong> Senin - Sabtu (09:00 - 01:00 WIB)</p>
+            <p style="color: var(--danger); font-weight: 700;">🚫 Minggu Libur (istirahat bosku)</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <div style="font-weight: 800; font-size: 20px; color: var(--primary); margin-bottom: 10px;">KAPTEN UNTUNG STORE</div>
+        <p>&copy; 2026 Kapten Untung. All Rights Reserved.</p>
+        <p style="font-size: 12px; margin-top: 5px; opacity: 0.6;">Solusi Akun Facebook Tua & Aman.</p>
+    </footer>
+
+</body>
+</html>
