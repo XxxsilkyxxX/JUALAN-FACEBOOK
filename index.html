@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>VarkCozery Real | Jual Akun FB Amanah & Terpercaya</title>
+    <meta name="description" content="Pusat Jual Akun Facebook Polosan Tahun 2013-2024. Amanah, Garansi Aktif, Terbukti Berani Kerja Sama Jangka Panjang.">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1e40af;
+            --primary-light: #dbeafe;
+            --accent: #f59e0b;
+            --accent-dark: #d97706;
+            --dark: #0f172a;
+            --darker: #020617;
+            --text-main: #334155;
+            --text-muted: #64748b;
+            --white: #ffffff;
+            --bg-light: #f1f5f9;
+            --bg-card: #ffffff;
+            --success: #10b981;
+            --danger: #ef4444;
+            --qris-red: #ED1C24;
+            --qris-dark: #b9151c;
+            --radius-xl: 20px;
+            --radius-lg: 16px;
+            --radius-md: 12px;
+            --shadow-soft: 0 4px 20px rgba(15, 23, 42, 0.05);
+            --shadow-hover: 0 20px 40px -10px rgba(37, 99, 235, 0.2);
+            --shadow-float: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+
+        * { 
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+            scroll-behavior: smooth; 
+            -webkit-tap-highlight-color: transparent; 
+        }
+        
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-main);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Animations */
+        @keyframes float { 
+            0%, 100% { transform: translateY(0px); } 
+            50% { transform: translateY(-15px); } 
+        }
+        @keyframes pulse-wa { 
+            0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); } 
+            70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); } 
+            100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); } 
+        }
+        @keyframes fadeIn { 
+            from { opacity: 0; transform: translateY(30px); } 
+            to { opacity: 1; transform: translateY(0); } 
+        }
+        @keyframes heartbeat { 
+            0% { transform: scale(1); } 
+            15% { transform: scale(1.1); } 
+            30% { transform: scale(1); } 
+            45% { transform: scale(1.1); } 
+            60% { transform: scale(1); } 
+        }
+        @keyframes flash { 
+            0%, 50%, 100% { opacity: 1; } 
+            25%, 75% { opacity: 0.6; } 
+        }
+        @keyframes marquee { 
+            0% { transform: translateX(100%); } 
+            100% { transform: translateX(-100%); } 
+        }
+        @keyframes shine { 
+            0% { background-position: -200% center; } 
+            100% { background-position: 200% center; } 
+        }
+
+        .fade-in { animation: fadeIn 0.8s ease-out forwards; opacity: 0; }
+        .delay-1 { animation-delay: 0.1s; }
+        .delay-2 { animation-delay: 0.2s; }
+        .delay-3 { animation-delay: 0.3s; }
+
+        /* Top Bar & Announcement */
+        .top-bar {
+            background: var(--darker);
+            color: white;
+            padding: 8px 0;
+            font-size: 0.85rem;
+            font-weight: 500;
+            text-align: center;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        .top-bar i { color: var(--accent); margin: 0 5px; }
+
+        .announcement {
+            background: linear-gradient(90deg, var(--primary-dark), var(--primary), var(--primary-dark));
+            color: white;
+            padding: 12px 0;
+            font-size: 0.9rem;
+            font-weight: 700;
+            white-space: nowrap;
+            overflow: hidden;
+            position: relative;
+        }
+        .announcement-content { 
+            display: inline-block; 
+            animation: marquee 15s linear infinite; 
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #020617 0%, #0f172a 50%, #1e3a8a 100%);
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            padding: 80px 20px;
+            overflow: hidden;
+        }
+
+        .blob {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(100px);
+            opacity: 0.5;
+            z-index: 0;
+        }
+        .blob-1 { width: 500px; height: 500px; background: #2563eb; top: -100px; left: -100px; }
+        .blob-2 { width: 400px; height: 400px; background: #10b981; bottom: -50px; right: -50px; }
+
+        .hero-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-content { color: var(--white); }
+        
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+            padding: 8px 18px;
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 700;
+            margin-bottom: 25px;
+            color: #93c5fd;
+            text-transform: uppercase;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            line-height: 1.1;
+            margin-bottom: 25px;
+            font-weight: 800;
+            letter-spacing: -1px;
+        }
+
+        .hero h1 span.highlight { 
+            background: linear-gradient(90deg, #60a5fa, #93c5fd);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero h1 span.gold { color: var(--accent); }
+
+        .hero p { 
+            font-size: 1.2rem; 
+            color: #cbd5e1; 
+            margin-bottom: 30px; 
+            max-width: 500px; 
+        }
+
+        .hero-visual { 
+            position: relative; 
+            animation: float 6s ease-in-out infinite; 
+        }
+        
+        .glass-card {
+            background: rgba(255, 255, 255, 0.07);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: var(--radius-xl);
+            padding: 40px;
+            text-align: center;
+            color: white;
+            box-shadow: var(--shadow-float);
+        }
+
+        .fb-icon-large { 
+            font-size: 4rem; 
+            color: white; 
+            margin-bottom: 15px; 
+        }
+        
+        .stat-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 15px;
+            margin-top: 25px;
+            padding-top: 25px;
+            border-top: 1px solid rgba(255,255,255,0.15);
+        }
+        .stat-item span { 
+            display: block; 
+            font-size: 0.75rem; 
+            color: rgba(255,255,255,0.6); 
+            text-transform: uppercase; 
+            font-weight: 600; 
+            margin-bottom: 5px; 
+        }
+        .stat-item strong { 
+            font-size: 1.1rem; 
+            color: var(--success); 
+        }
+
+        /* Buttons */
+        .btn {
+            padding: 16px 32px;
+            border-radius: 12px;
+            font-weight: 700;
+            font-size: 1.05rem;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+        }
+        .btn-primary { 
+            background: var(--primary); 
+            color: white; 
+            box-shadow: 0 10px 20px -5px rgba(37, 99, 235, 0.5); 
+        }
+        .btn-primary:hover { 
+            transform: translateY(-3px); 
+            box-shadow: 0 15px 30px -5px rgba(37, 99, 235, 0.6); 
+        }
+        .btn-gold { 
+            background: var(--accent); 
+            color: var(--darker); 
+            box-shadow: 0 10px 20px -5px rgba(245, 158, 11, 0.5); 
+        }
+        .btn-gold:hover { 
+            transform: translateY(-3px); 
+            box-shadow: 0 15px 30px -5px rgba(245, 158, 11, 0.6); 
+        }
+        .btn-dark { 
+            background: var(--dark); 
+            color: white; 
+        }
+        .btn-dark:hover { 
+            background: var(--darker); 
+            transform: translateY(-2px); 
+        }
+
+        /* Trust Section */
+        .trust-section {
+            padding: 80px 20px;
+            background: white;
+            margin-top: -50px;
+            position: relative;
+            z-index: 5;
+            border-radius: 40px 40px 0 0;
+        }
+        .container { 
+            max-width: 1100px; 
+            margin: 0 auto; 
+        }
+        .trust-grid {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 60px;
+            align-items: center;
+        }
+        .section-title { 
+            font-size: 2.2rem; 
+            color: var(--dark); 
+            margin-bottom: 15px; 
+            font-weight: 800; 
+            line-height: 1.2; 
+        }
+        .section-subtitle { 
+            color: var(--text-muted); 
+            margin-bottom: 30px; 
+            font-size: 1.05rem; 
+        }
+        
+        .trust-points { list-style: none; }
+        .trust-points li {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+            color: var(--text-main);
+            font-size: 1.05rem;
+        }
+        .trust-points li i {
+            color: white;
+            background: var(--success);
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            font-size: 0.8rem;
+            flex-shrink: 0;
+        }
+
+        .admin-card {
+            background: linear-gradient(135deg, #f8fafc, #eff6ff);
+            padding: 30px;
+            border-radius: var(--radius-xl);
+            border: 1px solid #e2e8f0;
+            text-align: center;
+            box-shadow: var(--shadow-soft);
+        }
+        .admin-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 0 auto 15px;
+            border: 4px solid var(--white);
+            box-shadow: 0 0 0 4px var(--primary);
+            object-fit: cover;
+        }
+        .verified-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            background: var(--primary);
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        /* How To Section */
+        .howto-section { 
+            padding: 80px 20px; 
+            background: white; 
+        }
+        .steps-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+        }
+        .step-card {
+            background: var(--bg-light);
+            border-radius: var(--radius-xl);
+            padding: 30px;
+            text-align: center;
+            transition: 0.3s;
+            border: 1px solid transparent;
+        }
+        .step-card:hover {
+            background: white;
+            box-shadow: var(--shadow-hover);
+            border-color: var(--primary-light);
+            transform: translateY(-5px);
+        }
+        .step-icon {
+            width: 60px;
+            height: 60px;
+            background: var(--primary-light);
+            color: var(--primary);
+            font-size: 1.5rem;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+        }
+        .step-card h3 { 
+            font-size: 1.1rem; 
+            margin-bottom: 10px; 
+            color: var(--dark); 
+        }
+        .step-card p { 
+            color: var(--text-muted); 
+            font-size: 0.9rem; 
+            line-height: 1.5; 
+        }
+
+        /* Pricing Section */
+        .pricing-section { 
+            padding: 80px 20px; 
+            background: var(--bg-light); 
+        }
+        .pricing-wrapper {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .price-card {
+            background: white;
+            border-radius: var(--radius-xl);
+            padding: 35px;
+            box-shadow: var(--shadow-soft);
+            border: 1px solid #e2e8f0;
+            transition: 0.4s;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+        .price-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-hover);
+        }
+        .price-card.featured {
+            border: 2px solid var(--primary);
+            box-shadow: 0 20px 40px -15px rgba(37, 99, 235, 0.25);
+        }
+
+        .discount-badge {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: var(--danger);
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+
+        .card-title { 
+            font-size: 1.25rem; 
+            font-weight: 800; 
+            color: var(--dark); 
+            margin-bottom: 10px; 
+        }
+        .card-desc { 
+            color: var(--text-muted); 
+            font-size: 0.9rem; 
+            margin-bottom: 20px; 
+        }
+
+        .price-tag-container { margin-bottom: 20px; }
+        .price-old { 
+            text-decoration: line-through; 
+            color: var(--text-muted); 
+            font-size: 1rem; 
+            margin-right: 8px; 
+        }
+        .price-new { 
+            font-size: 2.8rem; 
+            font-weight: 800; 
+            color: var(--dark); 
+        }
+        .price-new small { 
+            font-size: 1rem; 
+            color: var(--text-muted); 
+            font-weight: 500; 
+        }
+
+        .quantity-wrapper {
+            background: var(--bg-light);
+            padding: 12px;
+            border-radius: var(--radius-md);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .qty-controls {
+            display: flex;
+            align-items: center;
+            background: white;
+            border-radius: 8px;
+            border: 1px solid #cbd5e1;
+        }
+        .qty-btn {
+            width: 35px; height: 35px;
+            border: none; background: transparent;
+            font-size: 1.2rem; color: var(--primary);
+            cursor: pointer; font-weight: 800;
+        }
+        .qty-input {
+            width: 40px; text-align: center; border: none;
+            font-weight: 800; font-size: 1.1rem; color: var(--dark);
+            -moz-appearance: textfield;
+        }
+
+        .total-box {
+            background: var(--dark);
+            color: white;
+            padding: 15px;
+            border-radius: var(--radius-md);
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .total-label { 
+            font-size: 0.9rem; 
+            opacity: 0.8; 
+        }
+        .total-amount { 
+            font-size: 1.5rem; 
+            font-weight: 800; 
+            color: var(--accent); 
+        }
+
+        .feature-list { 
+            list-style: none; 
+            margin-bottom: 25px; 
+            flex-grow: 1; 
+        }
+        .feature-list li {
+            display: flex; align-items: flex-start;
+            margin-bottom: 12px; font-size: 0.95rem; color: var(--text-main);
+        }
+        .feature-list li i { 
+            color: var(--success); 
+            margin-right: 10px; 
+            margin-top: 4px; 
+        }
+
+        .garansi-box {
+            background: linear-gradient(135deg, #fffbeb, #fef3c7);
+            border: 1px solid #fcd34d;
+            padding: 12px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .garansi-box i { 
+            color: var(--accent-dark); 
+            font-size: 1.5rem; 
+        }
+        .garansi-box div { 
+            font-size: 0.85rem; 
+            color: #92400e; 
+            font-weight: 700; 
+            line-height: 1.4; 
+        }
+
+        .pay-grid { 
+            display: grid; 
+            grid-template-columns: repeat(4, 1fr); 
+            gap: 10px; 
+            margin-bottom: 20px; 
+        }
+        .pay-label {
+            border: 2px solid #e2e8f0; border-radius: 10px; padding: 10px 5px;
+            text-align: center; cursor: pointer; transition: 0.2s; font-size: 0.7rem;
+            font-weight: 700; color: var(--text-muted);
+        }
+        .pay-label i { 
+            font-size: 1.2rem; 
+            display: block; 
+            margin-bottom: 5px; 
+        }
+        .pay-radio:checked + .pay-label { 
+            border-color: var(--primary); 
+            background: var(--primary-light); 
+            color: var(--primary); 
+        }
+        .pay-radio:checked + .pay-label i { 
+            color: var(--primary); 
+        }
+        .pay-radio { display: none; }
+
+        .terms-check { 
+            display: flex; 
+            align-items: flex-start; 
+            gap: 10px; 
+            margin-bottom: 20px; 
+            font-size: 0.85rem; 
+            color: var(--text-muted); 
+        }
+        .terms-check input { 
+            width: 18px; 
+            height: 18px; 
+            margin-top: 2px; 
+            accent-color: var(--primary); 
+        }
+
+        .btn-buy { 
+            width: 100%; 
+            padding: 16px; 
+            font-size: 1.1rem; 
+        }
+
+        /* Partnership Section */
+        .partnership-section {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .btn-partner {
+            background: var(--success);
+            color: white;
+            padding: 16px 40px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-decoration: none;
+            display: inline-flex;
+            gap: 10px;
+            box-shadow: 0 10px 25px rgba(16, 185, 129, 0.3);
+            transition: 0.3s;
+        }
+        .btn-partner:hover { 
+            transform: translateY(-5px); 
+            box-shadow: 0 15px 35px rgba(16, 185, 129, 0.4); 
+        }
+
+        /* FAQ Section */
+        .faq-section { 
+            padding: 80px 20px; 
+            background: white; 
+        }
+        .faq-wrapper { 
+            max-width: 800px; 
+            margin: 0 auto; 
+        }
+        .faq-item { 
+            border-bottom: 1px solid #e2e8f0; 
+        }
+        .faq-question {
+            width: 100%; text-align: left; background: none; border: none;
+            padding: 20px 0; font-size: 1.1rem; font-weight: 700; color: var(--dark);
+            cursor: pointer; display: flex; justify-content: space-between; align-items: center;
+        }
+        .faq-question i { 
+            transition: 0.3s; 
+            color: var(--primary); 
+        }
+        .faq-question.active i { 
+            transform: rotate(180deg); 
+        }
+        .faq-answer { 
+            max-height: 0; 
+            overflow: hidden; 
+            transition: max-height 0.3s ease; 
+            color: var(--text-muted); 
+        }
+        .faq-answer p { 
+            padding-bottom: 20px; 
+        }
+
+        /* Footer */
+        footer { 
+            background: var(--darker); 
+            color: white; 
+            text-align: center; 
+            padding: 60px 20px 30px; 
+        }
+        .footer-logo { 
+            font-size: 1.5rem; 
+            font-weight: 800; 
+            margin-bottom: 15px; 
+        }
+        .footer-logo span { 
+            color: var(--primary); 
+        }
+        .copyright { 
+            margin-top: 30px; 
+            font-size: 0.8rem; 
+            color: rgba(255,255,255,0.4); 
+        }
+
+        /* MODAL & FLOATING WA */
+        .modal-overlay {
+            position: fixed; inset: 0; background: rgba(2, 6, 23, 0.8); backdrop-filter: blur(5px);
+            z-index: 2000; display: flex; align-items: center; justify-content: center; padding: 20px;
+            opacity: 0; visibility: hidden; transition: 0.3s;
+        }
+        .modal-overlay.active { 
+            opacity: 1; 
+            visibility: visible; 
+        }
+        .modal-card {
+            background: white; width: 100%; max-width: 450px; border-radius: var(--radius-xl);
+            padding: 30px; position: relative; transform: scale(0.9); transition: 0.3s; max-height: 90vh; overflow-y: auto;
+        }
+        .modal-overlay.active .modal-card { 
+            transform: scale(1); 
+        }
+        .modal-close {
+            position: absolute; top: 15px; right: 15px; background: #f1f5f9; border: none;
+            width: 35px; height: 35px; border-radius: 50%; cursor: pointer; font-size: 1rem; color: var(--text-muted);
+        }
+        .modal-total-box {
+            background: var(--dark); color: white; padding: 15px; border-radius: 12px;
+            text-align: center; margin: 20px 0;
+        }
+        .modal-total-box .amount { 
+            font-size: 2rem; 
+            font-weight: 800; 
+            color: var(--accent); 
+        }
+
+        .pay-detail-box {
+            border: 2px dashed #cbd5e1; border-radius: 12px; padding: 20px; text-align: center; margin-bottom: 20px;
+        }
+        .pay-detail-box .num { 
+            font-size: 1.5rem; 
+            font-weight: 800; 
+            font-family: monospace; 
+            letter-spacing: 2px; 
+            margin: 10px 0; 
+            color: var(--dark); 
+        }
+        .copy-btn {
+            background: var(--primary-light); color: var(--primary); border: none; padding: 8px 16px;
+            border-radius: 20px; font-weight: 700; cursor: pointer; transition: 0.2s;
+        }
+        .copy-btn:hover { 
+            background: var(--primary); 
+            color: white; 
+        }
+
+        .btn-wa-modal {
+            background: #25d366; color: white; text-decoration: none; padding: 16px; border-radius: 12px;
+            font-weight: 700; display: flex; justify-content: center; align-items: center; gap: 10px; width: 100%; font-size: 1.1rem;
+        }
+
+        .sticky-wa {
+            position: fixed; bottom: 25px; right: 25px; background: #25d366; color: white;
+            width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+            font-size: 1.8rem; text-decoration: none; box-shadow: 0 10px 25px rgba(37, 211, 102, 0.5);
+            z-index: 999; animation: pulse-wa 2s infinite;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero-container { grid-template-columns: 1fr; text-align: center; }
+            .hero h1 { font-size: 2.2rem; }
+            .hero p { margin: 0 auto 30px; }
+            .trust-grid { grid-template-columns: 1fr; }
+            .pricing-wrapper { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <i class="fas fa-shield-alt"></i> 100% Amanah & Terpercaya 
+        <span style="margin: 0 10px;">|</span> 
+        <i class="fas fa-clock"></i> Senin - Sabtu (24 Jam)
+    </div>
+
+    <!-- Announcement Marquee -->
+    <div class="announcement">
+        <div class="announcement-content">
+            🔥 PROMO AKHIR TAHUN! STOK SIAP ANTAR TANPA RIBET! GAK PUNYA DUIT? JANGAN BANYAK ALASAN BOSKU, YANG SERIOUS AJA! 🚀
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+
+        <div class="hero-container">
+            <div class="hero-content fade-in">
+                <div class="hero-badge"><i class="fas fa-user-shield" style="margin-right:8px;"></i> Admin Real & Amanah</div>
+                <h1>Cari Akun FB <span class="highlight">Vintage</span> & Siap Pakai? <br><span class="gold">VarkCozery</span> Solusinya!</h1>
+                <p>Jangan banyak alasan deh bosku. Disini kita jual akun FB tahun 2013-2014 polosan dan publik siap pakai. Garansi ganti kalau kena checkpoint!</p>
+                
+                <a href="#pricing" class="btn btn-primary"><i class="fas fa-rocket"></i> Lihat Harga & Beli Sekarang</a>
+            </div>
+
+            <div class="hero-visual fade-in delay-2">
+                <div class="glass-card">
+                    <i class="fab fa-facebook fb-icon-large"></i>
+                    <h3 style="font-size:1.5rem; margin-bottom:5px;">Quality Vintage Accounts</h3>
+                    <p style="opacity:0.8;">Tahun 2013 - 2014</p>
+                    <div class="stat-grid">
+                        <div class="stat-item">
+                            <span>Status</span>
+                            <strong>READY</strong>
+                        </div>
+                        <div class="stat-item">
+                            <span>Garansi</span>
+                            <strong>180 HARI</strong>
+                        </div>
+                        <div class="stat-item">
+                            <span>Trust</span>
+                            <strong>100%</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="trust-section">
+        <div class="container">
+            <div class="trust-grid">
+                <div class="trust-content fade-in">
+                    <h2 class="section-title">Kenapa Harus Beli di <span style="color:var(--primary);">VarkCozery</span>?</h2>
+                    <p class="section-subtitle">Biasakanlah jujur, karena kejujuran menuntun pada kebaikan. Kami gak bakal kasih alasan konyol, stok ready berarti ready!</p>
+                    <ul class="trust-points">
+                        <li><i class="fas fa-check"></i> Legal & Clear (Bukan Hasil Carding/Curian)</li>
+                        <li><i class="fas fa-check"></i> Admin Real, Bukan Bot, Respon Super Cepat</li>
+                        <li><i class="fas fa-check"></i> Garansi Ganti 1 Akun Tanpa Ribet</li>
+                        <li><i class="fas fa-check"></i> Sistem Bayar Dulu, Akun Langsung Dikirim</li>
+                    </ul>
+                </div>
+                <div class="admin-card fade-in delay-2">
+                    <img src="https://z-cdn-media.chatglm.cn/files/06d80221-9c89-4c5f-9c9a-f98191534c3c.jpg?auth_key=1885424372-a396a72349c54a079b98076495e17d01-0-24f8e4e9e198d81287909100e0ed2539" alt="Admin VarkCozery" class="admin-img">
+                    <div class="verified-badge"><i class="fas fa-check-circle"></i> Verified Admin</div>
+                    <h3 style="font-size:1.2rem; margin-bottom:5px; color:var(--dark);">Admin VarkCozery</h3>
+                    <p style="font-size:0.9rem; color:var(--text-muted);">Siap melayani konsultasi & transaksi 24/7.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How To Section -->
+    <section class="howto-section">
+        <div class="container">
+            <div style="text-align:center; margin-bottom:50px;" class="fade-in">
+                <h2 class="section-title">Cara Transaksi Simpel</h2>
+                <p class="section-subtitle" style="margin:0 auto; max-width:600px;">Cukup 4 langkah mudah, akun langsung sampai ke tangan Anda.</p>
+            </div>
+            <div class="steps-container">
+                <div class="step-card fade-in delay-1">
+                    <div class="step-icon"><i class="fas fa-mouse-pointer"></i></div>
+                    <h3>1. Pilih Paket</h3>
+                    <p>Tentukan akun FB Jadi atau Biasa, atur jumlah sesuai kebutuhan.</p>
+                </div>
+                <div class="step-card fade-in delay-2">
+                    <div class="step-icon"><i class="fas fa-wallet"></i></div>
+                    <h3>2. Bayar</h3>
+                    <p>Pilih metode (DANA, SeaBank, GoPay, QRIS) lalu transfer sesuai nominal.</p>
+                </div>
+                <div class="step-card fade-in delay-3">
+                    <div class="step-icon"><i class="fas fa-comment-dots"></i></div>
+                    <h3>3. Konfirmasi</h3>
+                    <p>Kirim bukti pembayaran via WhatsApp ke tombol yang sudah disediakan.</p>
+                </div>
+                <div class="step-card fade-in delay-3">
+                    <div class="step-icon"><i class="fas fa-box-open"></i></div>
+                    <h3>4. Terima Akun</h3>
+                    <p>Admin proses 5-10 menit. Akun dikirim beserta data lengkapnya.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing-section">
+        <div style="text-align:center; margin-bottom:50px;" class="fade-in">
+            <h2 class="section-title">Pilihan Paket Hemat</h2>
+            <p class="section-subtitle" style="margin:0 auto; max-width:600px;">Stok terbatas! Pilih paket yang sesuai dengan kebutuhan bisnis Anda sekarang.</p>
+        </div>
+        
+        <div class="pricing-wrapper">
+            <!-- PACKAGE 1: BASIC -->
+            <div class="price-card fade-in delay-1">
+                <span class="discount-badge">HEMAT 20%</span>
+                <div class="card-title">Akun FB Biasa</div>
+                <p class="card-desc">Akun polos siap verifikasi, cocok untuk jualan.</p>
+                
+                <div class="price-tag-container">
+                    <span class="price-old">15K</span>
+                    <span class="price-new">10K <small>/ akun</small></span>
+                </div>
+                
+                <div class="quantity-wrapper">
+                    <span style="font-weight:600;">Qty:</span>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="updateQty('basic', -1)">-</button>
+                        <input type="number" id="qty-basic" class="qty-input" value="1" min="1" readonly>
+                        <button class="qty-btn" onclick="updateQty('basic', 1)">+</button>
+                    </div>
+                </div>
+
+                <div class="total-box">
+                    <span class="total-label">Total Bayar:</span>
+                    <span class="total-amount" id="total-basic">10K</span>
+                </div>
+
+                <ul class="feature-list">
+                    <li><i class="fas fa-check-circle"></i> FB Polos (Kosong)</li>
+                    <li><i class="fas fa-check-circle"></i> Tahun 2013-2014</li>
+                    <li><i class="fas fa-check-circle"></i> A2F Mati (Pass Permanen)</li>
+                    <li><i class="fas fa-check-circle"></i> Cocok untuk Bisnis/Pribadi</li>
+                </ul>
+
+                <div class="garansi-box">
+                    <i class="fas fa-shield-halved"></i>
+                    <div>Garansi Ganti 1 Akun jika kena Checkpoint (180 hari)</div>
+                </div>
+
+                <div class="pay-grid">
+                    <input type="radio" name="pay-basic" value="dana" id="b-dana" class="pay-radio" checked>
+                    <label for="b-dana" class="pay-label"><i class="fas fa-wallet"></i>DANA</label>
+                    
+                    <input type="radio" name="pay-basic" value="seabank" id="b-sea" class="pay-radio">
+                    <label for="b-sea" class="pay-label"><i class="fas fa-university"></i>SeaBank</label>
+                    
+                    <input type="radio" name="pay-basic" value="gopay" id="b-gopay" class="pay-radio">
+                    <label for="b-gopay" class="pay-label"><i class="fas fa-money-bill-wave"></i>GoPay</label>
+                    
+                    <input type="radio" name="pay-basic" value="qris" id="b-qris" class="pay-radio">
+                    <label for="b-qris" class="pay-label"><i class="fas fa-qrcode"></i>QRIS</label>
+                </div>
+
+                <div class="terms-check">
+                    <input type="checkbox" id="terms-basic">
+                    <label for="terms-basic">Saya setuju <strong>Bayar Dulu</strong>, akun dikirim setelah konfirmasi.</label>
+                </div>
+
+                <button class="btn btn-dark btn-buy" onclick="openModal('basic')">Proses Pesanan</button>
+            </div>
+
+            <!-- PACKAGE 2: FEATURED / JADI -->
+            <div class="price-card featured fade-in delay-2">
+                <span class="discount-badge" style="background:var(--primary);">RECOMMENDED</span>
+                <div class="card-title">Akun FB Publik Jadi</div>
+                <p class="card-desc">Akun sudah jadi, tinggal login langsung pakai!</p>
+                
+                <div class="price-tag-container">
+                    <span class="price-old">25K</span>
+                    <span class="price-new">20K <small>/ akun</small></span>
+                </div>
+                
+                <div class="quantity-wrapper">
+                    <span style="font-weight:600;">Qty:</span>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="updateQty('jadi', -1)">-</button>
+                        <input type="number" id="qty-jadi" class="qty-input" value="1" min="1" readonly>
+                        <button class="qty-btn" onclick="updateQty('jadi', 1)">+</button>
+                    </div>
+                </div>
+
+                <div class="total-box">
+                    <span class="total-label">Total Bayar:</span>
+                    <span class="total-amount" id="total-jadi">20K</span>
+                </div>
+
+                <ul class="feature-list">
+                    <li><i class="fas fa-check-circle"></i> Bisa Login FB Lite & FB Biru</li>
+                    <li><i class="fas fa-check-circle"></i> Tahun 2013-2024</li>
+                    <li><i class="fas fa-check-circle"></i> A2F Mati (Pass Permanen)</li>
+                    <li><i class="fas fa-check-circle"></i> Login pakai UID/Gmail/No HP</li>
+                </ul>
+
+                <div class="garansi-box">
+                    <i class="fas fa-shield-halved"></i>
+                    <div>Garansi Ganti 1 Akun jika kena Checkpoint (180 hari)</div>
+                </div>
+
+                <div class="pay-grid">
+                    <input type="radio" name="pay-jadi" value="dana" id="j-dana" class="pay-radio" checked>
+                    <label for="j-dana" class="pay-label"><i class="fas fa-wallet"></i>DANA</label>
+                    
+                    <input type="radio" name="pay-jadi" value="seabank" id="j-sea" class="pay-radio">
+                    <label for="j-sea" class="pay-label"><i class="fas fa-university"></i>SeaBank</label>
+                    
+                    <input type="radio" name="pay-jadi" value="gopay" id="j-gopay" class="pay-radio">
+                    <label for="j-gopay" class="pay-label"><i class="fas fa-money-bill-wave"></i>GoPay</label>
+                    
+                    <input type="radio" name="pay-jadi" value="qris" id="j-qris" class="pay-radio">
+                    <label for="j-qris" class="pay-label"><i class="fas fa-qrcode"></i>QRIS</label>
+                </div>
+
+                <div class="terms-check">
+                    <input type="checkbox" id="terms-jadi">
+                    <label for="terms-jadi">Saya setuju <strong>Bayar Dulu</strong>, akun dikirim setelah konfirmasi.</label>
+                </div>
+
+                <button class="btn btn-primary btn-buy" onclick="openModal('jadi')">Proses Pesanan</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partnership / Reseller Section -->
+    <section class="partnership-section">
+        <div style="max-width:800px; margin:0 auto;">
+            <h2 style="font-size:2rem; margin-bottom:15px;">Mau Harga Grosir?</h2>
+            <p style="color:#94a3b8; margin-bottom:30px;">Gabung group reseller VarkCozery untuk dapat update stok terbaru dan harga spesial khusus member!</p>
+            <a href="https://chat.whatsapp.com/KvZp0aOrpBU3dqgIuAbmN5?s=cl&p=a&ilr=4&amv=1" class="btn-partner" target="_blank">
+                <i class="fab fa-whatsapp"></i> Gabung Group Reseller
+            </a>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="faq-wrapper">
+            <div style="text-align:center; margin-bottom:40px;" class="fade-in">
+                <h2 class="section-title">Pertanyaan Umum</h2>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">Apakah akun ini legal dan aman? <i class="fas fa-chevron-down"></i></button>
+                <div class="faq-answer"><p>Ya, semua akun legal dan bukan hasil curian. Didapat secara sah dan sudah melalui pengecekan keamanan.</p></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">Bagaimana sistem garansinya? <i class="fas fa-chevron-down"></i></button>
+                <div class="faq-answer"><p>Garansi ganti 1 akun jika kena checkpoint dalam 180 hari sejak dikirim. Cukup kirim bukti ke admin via WA.</p></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">Berapa lama proses pengiriman? <i class="fas fa-chevron-down"></i></button>
+                <div class="faq-answer"><p>Maksimal 5-10 menit setelah pembayaran dikonfirmasi pada jam operasional (Senin-Sabtu).</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-logo">Vark<span>Cozery</span></div>
+        <p style="color:#94a3b8; max-width:400px; margin:0 auto 20px;">Pusat Jual Akun Facebook Vintage. Amanah, Garansi Aktif, Terbukti Berani Kerja Sama Jangka Panjang.</p>
+        <p class="copyright">&copy; 2024 VarkCozery Real. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/6282121348660?text=Halo%20admin%20VarkCozery" class="sticky-wa" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Payment Modal -->
+    <div class="modal-overlay" id="paymentModal">
+        <div class="modal-card">
+            <button class="modal-close" onclick="closeModal()"><i class="fas fa-times"></i></button>
+            <h3 style="font-size:1.5rem; margin-bottom:5px;">Instruksi Pembayaran</h3>
+            <p style="color:var(--text-muted); margin-bottom:20px;">Selesaikan pembayaran untuk mendapatkan akun Anda.</p>
+
+            <div id="modal-content"></div>
+
+            <div class="modal-total-box">
+                <div style="font-size:0.85rem; opacity:0.8;">Total Yang Harus Dibayar</div>
+                <div class="amount" id="modal-total">Rp 0</div>
+            </div>
+
+            <a href="#" id="btn-wa-confirm" class="btn-wa-modal" target="_blank">
+                <i class="fab fa-whatsapp"></i> Saya Sudah Bayar
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Configuration Object
+        const CONFIG = {
+            jadi: { price: 20000, name: 'Akun FB Publik Jadi' },
+            basic: { price: 10000, name: 'Akun FB Biasa' },
+            payments: {
+                dana: { name: 'DANA', number: '082121348660', holder: 'DEDE UNTUNG', icon: 'fas fa-wallet', color: '#118EEA' },
+                seabank: { name: 'SeaBank', number: '901723764370', holder: 'DEDE UNTUNG', icon: 'fas fa-university', color: '#ff8e00' },
+                gopay: { name: 'GoPay', number: '085285437561', holder: 'VARKCOZERY', icon: 'fas fa-money-bill-wave', color: '#00AED6' },
+                qris: { name: 'QRIS', number: null, holder: 'VARKCOZERY', icon: 'fas fa-qrcode', color: '#ED1C24' }
+            },
+            waNumber: '6282121348660'
+        };
+
+        // Format numbers to K (e.g., 10K, 20K)
+        function formatRupiah(num) {
+            return (num / 1000) + 'K';
+        }
+
+        // Format numbers to full Rupiah (e.g., Rp 10.000)
+        function formatRupiahFull(num) {
+            return 'Rp ' + num.toLocaleString('id-ID');
+        }
+
+        // Update Quantity and Total Price
+        function updateQty(type, delta) {
+            const input = document.getElementById('qty-' + type);
+            let val = parseInt(input.value) + delta;
+            if (val < 1) val = 1;
+            input.value = val;
+            const total = val * CONFIG[type].price;
+            document.getElementById('total-' + type).textContent = formatRupiah(total);
+        }
+
+        // Open Modal and Setup Payment Details
+        function openModal(type) {
+            if (!document.getElementById('terms-' + type).checked) {
+                alert('Harap centang persetujuan pembayaran terlebih dahulu!');
+                return;
+            }
+
+            const qty = parseInt(document.getElementById('qty-' + type).value);
+            const total = qty * CONFIG[type].price;
+            const payMethod = document.querySelector(`input[name="pay-${type}"]:checked`).value;
+            const payData = CONFIG.payments[payMethod];
+
+            document.getElementById('modal-total').textContent = formatRupiahFull(total);
+
+            let html = '';
+            
+            // Generate HTML for QRIS or Regular Transfer
+            if (payMethod === 'qris') {
+                html = `
+                    <div class="pay-detail-box" style="border-color:var(--qris-red);">
+                        <i class="fas fa-qrcode" style="font-size:2rem; color:var(--qris-red);"></i>
+                        <h4 style="margin:10px 0;">Scan QRIS</h4>
+                        <p style="font-size:0.85rem; color:var(--text-muted);">Gunakan aplikasi DANA/GoPay/OVO/Banking</p>
+                        <img src="https://z-cdn-media.chatglm.cn/files/b84cac00-cdc6-45be-975a-a0c811b249ee.jpg?auth_key=1884143818-a98c7d1b7b2c4ea998fea3f62d0f46f0-0-2609e40707af54f8965918dcfb487cdc" alt="QRIS" style="width:200px; margin:15px auto; display:block; border-radius:10px;">
+                        <p style="font-size:0.8rem; font-weight:700; color:var(--dark);">A.N. ${payData.holder}</p>
+                        <a href="https://z-cdn-media.chatglm.cn/files/b84cac00-cdc6-45be-975a-a0c811b249ee.jpg?auth_key=1884143818-a98c7d1b7b2c4ea998fea3f62d0f46f0-0-2609e40707af54f8965918dcfb487cdc" download="QRIS_VarkCozery" class="btn btn-primary" style="padding: 10px 20px; font-size: 0.9rem; display: inline-flex; margin-top: 10px;">
+                            <i class="fas fa-download"></i> Download QRIS
+                        </a>
+                    </div>
+                `;
+            } else {
+                html = `
+                    <div class="pay-detail-box">
+                        <i class="${payData.icon}" style="font-size:2rem; color:${payData.color};"></i>
+                        <h4 style="margin:10px 0;">Transfer via ${payData.name}</h4>
+                        <div class="num">${payData.number}</div>
+                        <p style="font-size:0.9rem; font-weight:700; color:var(--text-muted);">A.N. ${payData.holder}</p>
+                        <button class="copy-btn" onclick="copyNum('${payData.number}', this)"><i class="fas fa-copy"></i> Salin Nomor</button>
+                    </div>
+                `;
+            }
+            
+            document.getElementById('modal-content').innerHTML = html;
+
+            // Setup WhatsApp Confirmation Link
+            const waMsg = encodeURIComponent(`Halo Admin, saya mau pesan:\n\nPaket: ${CONFIG[type].name}\nQty: ${qty} Akun\nMetode: ${payData.name}\nTotal: ${formatRupiahFull(total)}\n\nSaya sudah melakukan pembayaran, mohon segera diproses ya.`);
+            document.getElementById('btn-wa-confirm').href = `https://wa.me/${CONFIG.waNumber}?text=${waMsg}`;
+
+            // Activate Modal
+            document.getElementById('paymentModal').classList.add('active');
+        }
+
+        // Close Modal
+        function closeModal() {
+            document.getElementById('paymentModal').classList.remove('active');
+        }
+
+        // Copy Number to Clipboard
+        function copyNum(num, btn) {
+            navigator.clipboard.writeText(num);
+            btn.innerHTML = '<i class="fas fa-check"></i> Tersalin!';
+            setTimeout(() => {
+                btn.innerHTML = '<i class="fas fa-copy"></i> Salin Nomor';
+            }, 2000);
+        }
+
+        // Toggle FAQ Accordion
+        function toggleFaq(btn) {
+            btn.classList.toggle('active');
+            const ans = btn.nextElementSibling;
+            if (ans.style.maxHeight) {
+                ans.style.maxHeight = null;
+            } else {
+                ans.style.maxHeight = ans.scrollHeight + 'px';
+            }
+        }
+    </script>
+</body>
+</html>
